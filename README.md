@@ -9,6 +9,18 @@ This proposal adds three features to JavaScript classes, building on the previou
 - Static private methods
 - Static private fields
 
+## Current status
+
+This proposal is stable and with a variaty of implementations shipped. It is part of other class feature proposals, which includes [class fields](https://github.com/tc39/proposal-class-fields) and [private methods](https://github.com/tc39/proposal-private-methods).
+
+|Implementation|Status|
+|---|---|
+|Babel|[Babel 7.4](https://babeljs.io/blog/2019/03/19/7.4.0#static-private-methods-9446-https-githubcom-babel-babel-pull-9446) shipped Private Static Methods<br>[Babel 7.6](https://babeljs.io/blog/2019/09/05/7.6.0#private-static-accessors-getters-and-setters-10217-https-githubcom-babel-babel-pull-10217) shipped Private Static Accessors|
+|Moddable XS|[XS](https://blog.moddable.com/blog/secureprivate/) shipped full implementation|
+|QuickJS|[QuickJS](https://www.freelists.org/post/quickjs-devel/New-release,82) shipped full implementation|
+|Chrome|_In progress:_ [Fully implemented behind flag](https://bugs.chromium.org/p/v8/issues/detail?id=8330)|
+|Safari|_In progress:_ In review in this [patch](https://bugs.webkit.org/show_bug.cgi?id=194095)|
+
 ## Static public fields
 
 ### Motivation
